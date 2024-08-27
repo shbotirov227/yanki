@@ -1,0 +1,14 @@
+.Carousel {
+    margin-bottom: 100px;
+    .slickSlider {
+        .slickArrow {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            .slickPrev {
+                left: -1000px;
+
+            }
+        }
+    }
+}

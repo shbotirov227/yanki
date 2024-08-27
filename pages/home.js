@@ -1,14 +1,14 @@
 import Link from "next/link";
-import Header from "./components/Header";
-import Card from "./components/Card";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Card from "../components/Card";
 import styles from "../styles/Home.module.scss";
 import { Arrow } from "../assets/icons.jsx";
-import Img1 from "../assets/images/img1.png";
-import Img2 from "../assets/images/img2.png";
-import Img3 from "../assets/images/img3.png";
 import { Image } from "next/image";
+import Carousel from "./../carousels/Carousel";
+import SendEmail from "../components/SendEmail";
 
-const arr = [Img1, Img2, Img3]
+// const arr = [Img1, Img2, Img3]
 
 const Home = () => {
 	return (
@@ -28,9 +28,12 @@ const Home = () => {
 				<h2 className={styles.categorySectionTitle}>Категории</h2>
 
 				{/* <Card img={Img1} /> */}
-				<Card img={arr} />
-			</div>
+				{/* <Card /> */}
+				<Carousel />
 
+				<SendEmail />
+			</div>
+			<Footer />
 		</div>
 	)
 }

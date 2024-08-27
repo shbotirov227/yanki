@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from "../../styles/Card.module.scss";
+import styles from "../styles/Card.module.scss";
 
 const Card = ({ img }) => {
     return (

@@ -1,0 +1,25 @@
+.FooterBtn {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &_title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #252525;
+        margin-bottom: 20px;
+    }
+
+    &_btn {
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 19px;
+        color: #252525;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

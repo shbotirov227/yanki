@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { BuyIcon, CloseBtn, LikeIcon, Logo, MenuBtn, UserIcon, SearchIcon } from "../../assets/icons.jsx";
+import { BuyIcon, CloseBtn, LikeIcon, Logo, MenuBtn, UserIcon, SearchIcon } from "../assets/icons.jsx";
 
 import { useState } from "react";
 
-import styles from "../../styles/Header.module.scss";
+import styles from "../styles/Header.module.scss";
 
 const Header = () => {
 
@@ -44,7 +44,7 @@ const Header = () => {
                     <SearchIcon className="ml-16 w-6 h-6" fill="#fff" />
                     <Link className="ml-8 w-6 h-6" href=""><UserIcon fill="#fff" /></Link>
                     <Link className="ml-8 w-6 h-6" href=""><LikeIcon fill="#fff" /></Link>
-                    <Link className="ml-8 w-6 h-6" href=""><BuyIcon fill="#fff" /></Link>
+                    <Link className="ml-8 w-6 h-6" href="/return"><BuyIcon fill="#fff" /></Link>
                 </div>
             </div>
 
